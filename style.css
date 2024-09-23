@@ -1,0 +1,141 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+}
+
+.imagen {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+} 
+.FlexContainer{
+    margin-top: 20;
+    border: 1px solid black;
+    padding: 20px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin: 0 auto;
+}
+
+.caja {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.caja10 {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+body {
+    background: #f9f9f9f7 url("../images/legoBackground.jpg") repeat-x;
+    font-size: 11px;
+    font-family: 'Trebuchet MS',  sans-serif;
+    color: #131313;
+    line-height: 18px;
+
+}
+
+.imagen1 {
+    z-index: 1;
+}
+
+.imagen2 {
+    position: absolute;
+    z-index: 2;
+    top: 50px; 
+    left: 50px; 
+}
+
+.parrafo2  {
+    border: 2px solid #000;
+    padding: 7px;
+    background-color: #267834;
+}
+
+.div1 {
+    max-height: 70px;
+    max-width: 700px;
+    overflow: scroll;
+}
+
+.parrafo1 {
+    position: relative;
+    margin-top:  20px;
+    background-color: green;
+    color: #010101;
+    overflow: auto;
+    clear: both;
+}
+
+
+.parrafo1 img{
+    float: right;
+}
+
+#outer {
+    position:  relative;
+    width: 60%;
+    margin: 0px auto;
+    margin-top:  10px;
+    background-color: rgb(243, 245, 213);
+    border: initial;
+    overflow: overlay;
+    
+}
+
+.head1 {
+    text-align: center;
+}
+
+header {
+    max-width: 20%;
+    height: 170px;
+
+}
+
+#header #logo{
+    float: left;
+    width: 33%;
+    height:  170px;
+    color: white;
+    text-align: center;
+    padding: 28px;
+
+}
+
+#header #logo h1{
+    font-weight: normal;
+    font-size:  15px;
+    letter-spacing: -1px;
+    
+}
+
+p{
+    margin-bottom: 14px;
+    text-align: justify;
+
+}
